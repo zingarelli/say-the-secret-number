@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --bg-color: #A09F57;
+    --primary-color: #EADEB8;
+    --secondary-color: #CFB784;
+    --main-font: 'Russo One', sans-serif;
+    --number-font: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#buttonToSpeak, 
+a {
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+    font-family: var(--main-font);
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+.message {
+    font-size: 1.5em;
+    margin: 2em auto;
+}
+
+.fa-greater-than {
+    font-size: 4em;
+    display: inline-block;
+    margin-right: 0.25em;
+}
+
+.box {
+    font-family: var(--number-font);
+    font-size: 4em;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    margin: 0.5em auto;
+    padding: 0.3em;
+}
+
+.helper-message {
+    margin-top: 1em;
+}
+.stop-game {
+    font-size: 0.7em;
+    margin-top: 0.5em;
+}
+
+/* Styles for game over screen */
+.game-over {
+    color: #FFF;
+}
+
+.game-over .fa-face-frown{
+    font-size: 10em;
+    margin-bottom: 0.2em;
+}
+
+.game-over p{
+    margin: 4em auto;
+}
+
+.game-over a{
+    background-color: #FFF;
+    color: #000;
+}
