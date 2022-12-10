@@ -11,7 +11,7 @@ Learning how to use the [Web Speech API](https://developer.mozilla.org/en-US/doc
 | :rocket: URL         | https://zingarelli.github.io/say-the-secret-number/
 | :fire: Course     | https://www.alura.com.br/curso-online-javascript-validacoes-reconhecimento-voz
 
-![](https://user-images.githubusercontent.com/19349339/206854862-5fe7c03e-3aec-4ce1-af5c-e18928948e5c.png#vitrinedev)
+![](https://user-images.githubusercontent.com/19349339/206858034-98d89b76-e5e0-44be-a835-69807d0aaf15.png#vitrinedev)
 
 ## Project details
 Every time the game loads, a random number between 1 and 1000 is picked and is treated as the "secret number" (min and max values can be changed in the `randomNumber.js` file). When the player clicks on the button "Click/Touch here to start the microphone" and allows microphone to be used, s/he can then say something. Voice data is validated and if a number is recognized, it is compared to the secret number. If the number said matches the secret number, the player wins and the game is over; otherwise, voice recognition restarts and the player can say another number. If the player says "Game Over", the game stops and the secret number is revealed.
