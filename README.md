@@ -6,8 +6,8 @@ Learning how to use the [Web Speech API](https://developer.mozilla.org/en-US/doc
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Say the secret number**
-| :label: Tecnologias | html, css, javascript 
+| :sparkles: Nome        | **Fale o número secreto**
+| :label: Tecnologias | HTML, CSS, JavaScript
 | :rocket: URL         | https://zingarelli.github.io/say-the-secret-number/
 | :fire: Course     | https://www.alura.com.br/curso-online-javascript-validacoes-reconhecimento-voz
 
